@@ -60,3 +60,7 @@ gem 'mini_magick'
 gem 'image_processing'
 
 gem 'pry-rails'
+
+group :production do
+  gem 'pg'
+end
