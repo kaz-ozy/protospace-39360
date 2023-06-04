@@ -3,6 +3,6 @@ class Comment < ApplicationRecord
   belongs_to :prototype
 
 
-  validates :content, presence: true
+  validates :text, presence: true
   validates :text, presence: true
 end
